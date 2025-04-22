@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const openModalBtn = document.getElementById('openModal');
-const modalOpen = document.getElementsByClassName('modal');
-const closeBtn = document.getElementsByClassName('close-modal');
+const modalOpen = document.getElementById('modalOpenNew');
+const closeBtn = document.getElementById('close-modalNew');
 
 openModalBtn.onclick = () => {
 	modalOpen.style.display = 'block';
@@ -13,7 +13,7 @@ closeBtn.onclick = () => {
 
 
 window.onclick = (event) => {
-	if (event.target === modalOpen){
+	if(event.target ==== modalOpen){
 		modalOpen.style.display = "none";
 	}
 };
