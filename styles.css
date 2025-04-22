@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body{
+	width:100%;
+}
+body{
+	position:relative;
+}
+
+.modal{
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+	display:none;
+}
+.modal-content{
+	background-color:#fff;
+	margin:15% auto;
+	width:600px;
+	border:1px solid;
+	padding:20px;
+	 box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	animation: fadeIn 0.3s ease;
+}
+
+ @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+.modal-header{
+	background-color:green;
+	color:white;
+	padding:10px;
+}
+.modal-body{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.close-modal{
+	background:Transparent;
+	border:none;
+	font-size:20px;
+}
+button{
+	cursor:pointer;
+}
