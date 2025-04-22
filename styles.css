@@ -2,13 +2,10 @@
 body{
 	width:100%;
 }
-body{
-	position:relative;
-}
-#modalOpenNew{
-	display:none;
-}
+
+
 .modal{
+	display:none;
 	position:fixed;
 	z-index:1;
 	top:0;
@@ -17,7 +14,7 @@ body{
 	height:100%;
 	overflow: auto;
     background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
-	/* display:none; */
+	
 }
 .modal-content{
 	background-color:#fff;
