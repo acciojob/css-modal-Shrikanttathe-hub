@@ -13,7 +13,7 @@ closeBtn.onclick = () => {
 
 
 window.onclick = (event) => {
-	if(event.target ==== modalOpen){
+	if(event.target === modalOpen){
 		modalOpen.style.display = "none";
 	}
 };
